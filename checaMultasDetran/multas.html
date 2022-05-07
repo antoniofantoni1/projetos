@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran - Checa multas</title>
+</head>
+
+<body style="background-color: rgb(3, 12, 128); color: aliceblue;">
+    <img src="detran-rj-original.jpg" width="140px">
+    <h4 style="color: aliceblue;"> Olá, verifique se foi multado!</h4>
+
+    <input type="text" id="valor" name="name" placeholder="Velocidade aferida"> km/h<br>
+
+    <input type="submit" onclick="capturar()" value="Checa multa">
+    <p id="valorDigitado"></p>
+
+    <script>
+        function capturar() {
+            let velocidade = Number(document.getElementById('valor').value);
+
+            if (velocidade >= 85) {
+                document.getElementById('valorDigitado').innerHTML = `${velocidade} km/h. Velocidade acima do permitido. Multado!`;
+            } else {
+                document.getElementById('valorDigitado').innerHTML = `${velocidade} km/h. Velocidade permitida!'`;
+            }
+        }
+    </script>
+</body>
+
+</html>
