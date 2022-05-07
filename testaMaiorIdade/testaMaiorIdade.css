@@ -1,0 +1,10 @@
+
+::placeholder {
+    color: rgb(219, 217, 217)
+}
+
+#resultado {
+    background-color: rgb(9, 6, 216);
+    border: 5px;
+    color: white;
+}
