@@ -1,4 +1,4 @@
-## Hello World! Sou o Antonio Fantoni
+## Hello World! Sou o Antonio Fantoni.
 <div align="center">
   <a href="https://github.com/antoniofantoni1">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=antoniofantoni1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
