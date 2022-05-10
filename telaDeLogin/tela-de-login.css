@@ -1,0 +1,119 @@
+        * {
+            margin: 0x;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Helvetica;
+            color: #323232;
+            border: none;
+        }
+        
+        body {
+            background-image: url(fachada-dataprev.jpg);
+        }
+        
+        textarea:focus,
+        input:focus {
+            outline: none;
+        }
+        
+        a,
+        label {
+            font-size: .8rem;
+        }
+        
+        a:hover {
+            color: #08558B;
+        }
+        /*CONTAINER LOGIN*/
+        
+        #login-container {
+            background-color: rgb(47, 134, 73);
+            width: 300px;
+            height: 490px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1px;
+            margin-top: 2vh;
+            border-radius: 10%;
+            text-align: center;
+        }
+        
+        form {
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        
+        label,
+        input {
+            display: block;
+            width: 80%;
+            text-align: left;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input {
+            border-bottom: 2px solid #323232;
+            padding: 1px;
+            margin-bottom: 10px;
+        }
+        
+        input:focus {
+            border-bottom: 2px solid #098be7;
+        }
+        
+        #forgot-pass {
+            text-align: right;
+            display: block;
+        }
+        
+        input[type="submit"] {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            height: 30px;
+            margin-top: 20px;
+            border-radius: 20px;
+            color: #FFF;
+            background-color: #08558b;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #021929;
+            transition: 0.5s;
+        }
+        /*REDES SOCIAIS*/
+        
+        #social-container,
+        #social-container p {
+            margin-bottom: 5px;
+        }
+        
+        #social-container i {
+            height: 40px;
+            width: 40px;
+            background-color: #3b5998;
+            border-radius: 50%;
+            line-height: 40px;
+            color: white;
+            margin: 0 1px;
+            cursor: pointer;
+        }
+        /*REGISTRAR*/
+        
+        #register-container p {
+            margin-bottom: 5px;
+        }
+        
+        #login-container .botao {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
