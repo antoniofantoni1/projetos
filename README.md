@@ -1,8 +1,8 @@
 ## Hello World! Sou o Antonio Fantoni.
-<h4>
+<h2>
 Estudando: <strong>Javascript</strong>;</br>
 Próximos estudos a curto prazo: Typescritpt e node.js.
-</h4>
+</h2>
 
 <div align="center">
   <a href="https://github.com/antoniofantoni1">
