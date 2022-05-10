@@ -1,5 +1,5 @@
 ## Hello World! Sou o Antonio Fantoni.
-Estudando: Javascript;</br>
+Estudando: <strong>Javascript</strong>;</br>
 Próximos estudos a curto prazo: Typescritpt e node.js.
 
 <div align="center">
