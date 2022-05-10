@@ -1,6 +1,6 @@
 ## Hello World! Sou o Antonio Fantoni.
 Estudando: Javascript;</br>
-Próximos estudos a curto prazo: Typescritpt e node.js
+Próximos estudos a curto prazo: Typescritpt e node.js.
 
 <div align="center">
   <a href="https://github.com/antoniofantoni1">
